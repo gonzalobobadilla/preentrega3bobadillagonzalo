@@ -1,0 +1,27 @@
+footer {
+    color: $color__primario;
+    background: rgb(255, 0, 0);
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 17%, rgba(0, 0, 0, 1) 52%, rgba(0, 0, 0, 1) 82%, rgba(255, 0, 0, 1) 97%);
+
+    @media (min-width:768px) {
+        background: rgb(255,0,0);
+        background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 7%, rgba(0,0,0,1) 52%, rgba(0,0,0,1) 92%, rgba(255,0,0,1) 100%); 
+    }
+
+
+    h3 {
+        color: $color__primario;
+    }
+
+    ul {
+        li {
+            & a {
+                color: $color__primario;
+            }
+        }
+    }
+
+    .color_primario {
+        color: $color__primario;
+    }
+}

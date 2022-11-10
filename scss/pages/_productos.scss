@@ -1,0 +1,13 @@
+.titulo__productos {
+    text-align: center;
+    background-color: black;
+    color: $color__primario;
+    font-size: 3rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    @media (max-width: 500px) {
+        .titulo_cursos {
+            font-size: 1.5rem;
+        }
+    }
+}
