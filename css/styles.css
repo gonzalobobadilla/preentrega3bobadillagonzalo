@@ -1,0 +1,17 @@
+/* reset css
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html body ul ol {
+    list-style: none;
+}
+
+html body a {
+    text-decoration: none;
+} */
+/* main{
+    background-image: url(../imagenes/portada.jpg); !important
+} */
