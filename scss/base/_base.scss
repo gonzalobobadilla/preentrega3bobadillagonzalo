@@ -1,19 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-ul,ol{
+
+*::selection {
+    background-color: $color__primario;
+    color: $color__secundario;
+}
+
+ul,
+ol {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: $color__primario;
 }
-main{
-    background-image: url(../../imagenes/portada.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: auto;
+a:hover{
+    color: white;
 }

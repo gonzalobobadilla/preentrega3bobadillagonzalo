@@ -1,4 +1,12 @@
-.titulo_cursos{
+.main__cursos {
+    background-image: url(../../imagenes/fondo9.avif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+
+.titulo__cursos{
     background-color: $color__secundario;
     color:$color__primario;
     text-align: center;
@@ -8,13 +16,36 @@
         font-size: 2rem;
     }
 }
-.titulo_cursos-2{
+.titulo__cursos-2{
     background-color: $color__secundario;
     color:$color__primario;
     text-align: center;
     border-radius: 20px;
     font-size: 2rem;
-    @media(max-width:500px){
-        font-size: 1.5rem;
+    padding: 20px;
+}
+.beneficios__cursos{
+background-color: $color__secundario;
+color: $color__primario;
+width: 100%;
+height: fit-content;
+background-color: $color__secundario;
+    .beneficios__titulo{
+        text-align: center;
+        font-size: 3rem;
+        padding: 50px 0px;
+    }
+    .articulo-izq,.articulo-der{
+        padding: 50px 20px;
+        border-top: solid 2px $color__primario;
+    .beneficios__titulo-secundario{
+        padding-bottom: 30px;
+        font-size: 2rem;
+    }
+    .beneficios__texto{
+        text-align: justify;
+        padding-bottom: 30px;
+        font-size: 1rem;
+    }
     }
 }

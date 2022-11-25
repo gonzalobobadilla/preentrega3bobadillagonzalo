@@ -1,3 +1,11 @@
+.main__ingresar {
+    background-image: url(../../imagenes/fondo7.avif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+
 .titulo__ingresar {
     text-align: center;
     background-color: black;
@@ -13,7 +21,9 @@
 }
 
 .formulario{
-    background-color: rgba(255, 0, 0, 0.651);
-    color: $color__secundario;
+    background-color: rgb(255, 0, 0);
+    color: black;
     border: solid $color__secundario;
+    &::placeholder { color: $color__secundario; }
 }
+
