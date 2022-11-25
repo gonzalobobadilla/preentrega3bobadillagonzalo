@@ -4,57 +4,68 @@
     background-size: cover;
     background-attachment: fixed;
     height: auto;
-}
 
-.titulo__productos {
-    text-align: center;
-    background-color: black;
-    color: $color__primario;
-    font-size: 3rem;
-    border-radius: 10px;
-    margin-bottom: 2rem;
-    @media (max-width: 500px) {
-        .titulo_cursos {
-            font-size: 1.5rem;
+    .titulo__productos {
+        text-align: center;
+        background-color: black;
+        color: $color__primario;
+        font-size: 3rem;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+
+        @media (max-width: 500px) {
+            .titulo_cursos {
+                font-size: 1.5rem;
+            }
         }
     }
-}
 
-.contenedor__carrusel{
-    width: fit-content;
-    height: fit-content;
-}
+    .contenedor__carrusel {
+        width: fit-content;
+        height: fit-content;
+    }
 
-.productos-fondo{
-    background-image: url(../../imagenes/fondos4.avif);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: auto;
-}
+    .subtitulo-productos{
+        text-align: center;
+    }
+    .productos-fondo {
+        background-image: url(../imagenes/fondos4.avif);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: auto;
+    }
 
-.tarjeta__productos-teclados{
-    background-image: url(../../imagenes/teclados.webp);
-}
+    .tarjeta__productos-teclados {
+        background-image: url(../imagenes/teclados.webp);
+    }
 
-.tarjeta__productos-procesadores{
-    background-image: url(../../imagenes/ryzen.jpg);
-}
-.tarjeta__productos-teclados{
-    background-image: url(../../imagenes/teclados.webp);
-}
-.tarjeta__productos-teclados{
-    background-image: url(../../imagenes/teclados.webp);
-}
-.tarjeta__productos-teclados{
-    background-image: url(../../imagenes/teclados.webp);
-}
-.tarjeta__productos-teclados{
-    background-image: url(../../imagenes/teclados.webp);
-}
-.tarjeta__productos-teclados{
-    background-image: url(../../imagenes/teclados.webp);
-}
-.tarjeta__productos-teclados{
-    background-image: url(../../imagenes/teclados.webp);
+    .tarjeta__productos-procesadores {
+        background-image: url(../imagenes/ryzen.jpg);
+    }
+
+    .tarjeta__productos-teclados {
+        background-image: url(../imagenes/teclados.webp);
+    }
+
+    .tarjeta__productos-teclados {
+        background-image: url(../imagenes/teclados.webp);
+    }
+
+    .tarjeta__productos-teclados {
+        background-image: url(../imagenes/teclados.webp);
+    }
+
+    .tarjeta__productos-teclados {
+        background-image: url(../imagenes/teclados.webp);
+    }
+
+    .tarjeta__productos-teclados {
+        background-image: url(../imagenes/teclados.webp);
+    }
+
+    .tarjeta__productos-teclados {
+        background-image: url(../imagenes/teclados.webp);
+    }
+
 }

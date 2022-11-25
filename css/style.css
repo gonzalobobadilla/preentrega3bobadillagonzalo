@@ -303,28 +303,44 @@ footer .derechos-autor {
   background-attachment: fixed;
   height: auto;
 }
-
-.titulo__ingresar {
+.main__ingresar .titulo__ingresar {
   text-align: center;
   background-color: black;
   color: red;
   font-size: 3rem;
   border-radius: 10px;
   margin-bottom: 2rem;
+  padding: 20px;
 }
 @media (max-width: 500px) {
-  .titulo__ingresar .titulo_cursos {
+  .main__ingresar .titulo__ingresar .titulo_cursos {
     font-size: 1.5rem;
   }
 }
-
-.formulario {
+.main__ingresar .formulario {
+  margin: 20px;
+  font-size: 1rem;
+}
+.main__ingresar .formulario .formulario__separacion {
+  margin: 10px;
+  font-size: 1.5rem;
+}
+.main__ingresar .formulario .formulario__input {
   background-color: rgb(255, 0, 0);
   color: black;
   border: solid black;
+  width: 50vw;
 }
-.formulario::placeholder {
+.main__ingresar .formulario .formulario__input::placeholder {
   color: black;
+}
+.main__ingresar .tarjeta__inicio-seccion {
+  background-color: rgb(37, 35, 35);
+  color: red;
+  border-color: red;
+  border: solid 3px;
+  border-radius: 0px 0px 20px 20px;
+  margin: 20px;
 }
 
 .main__noticias {
@@ -334,9 +350,9 @@ footer .derechos-autor {
   background-attachment: fixed;
   height: auto;
 }
-
-.titulo__noticias {
+.main__noticias .titulo__noticias {
   text-align: center;
+  padding: 30px;
   background-color: black;
   color: red;
   font-size: 3rem;
@@ -344,9 +360,22 @@ footer .derechos-autor {
   margin-bottom: 2rem;
 }
 @media (max-width: 500px) {
-  .titulo__noticias .titulo_cursos {
+  .main__noticias .titulo__noticias .titulo_cursos {
     font-size: 1.5rem;
   }
+}
+.main__noticias .texto-noticias {
+  text-align: justify;
+  padding: 10px;
+}
+.main__noticias .noticias-relevantes {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main__noticias .carrusel-noticias {
+  margin: 70px auto;
 }
 
 .main__productos {
@@ -356,8 +385,7 @@ footer .derechos-autor {
   background-attachment: fixed;
   height: auto;
 }
-
-.titulo__productos {
+.main__productos .titulo__productos {
   text-align: center;
   background-color: black;
   color: red;
@@ -366,54 +394,47 @@ footer .derechos-autor {
   margin-bottom: 2rem;
 }
 @media (max-width: 500px) {
-  .titulo__productos .titulo_cursos {
+  .main__productos .titulo__productos .titulo_cursos {
     font-size: 1.5rem;
   }
 }
-
-.contenedor__carrusel {
+.main__productos .contenedor__carrusel {
   width: fit-content;
   height: fit-content;
 }
-
-.productos-fondo {
-  background-image: url(../../imagenes/fondos4.avif);
+.main__productos .subtitulo-productos {
+  text-align: center;
+}
+.main__productos .productos-fondo {
+  background-image: url(../imagenes/fondos4.avif);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   height: auto;
 }
-
-.tarjeta__productos-teclados {
-  background-image: url(../../imagenes/teclados.webp);
+.main__productos .tarjeta__productos-teclados {
+  background-image: url(../imagenes/teclados.webp);
 }
-
-.tarjeta__productos-procesadores {
-  background-image: url(../../imagenes/ryzen.jpg);
+.main__productos .tarjeta__productos-procesadores {
+  background-image: url(../imagenes/ryzen.jpg);
 }
-
-.tarjeta__productos-teclados {
-  background-image: url(../../imagenes/teclados.webp);
+.main__productos .tarjeta__productos-teclados {
+  background-image: url(../imagenes/teclados.webp);
 }
-
-.tarjeta__productos-teclados {
-  background-image: url(../../imagenes/teclados.webp);
+.main__productos .tarjeta__productos-teclados {
+  background-image: url(../imagenes/teclados.webp);
 }
-
-.tarjeta__productos-teclados {
-  background-image: url(../../imagenes/teclados.webp);
+.main__productos .tarjeta__productos-teclados {
+  background-image: url(../imagenes/teclados.webp);
 }
-
-.tarjeta__productos-teclados {
-  background-image: url(../../imagenes/teclados.webp);
+.main__productos .tarjeta__productos-teclados {
+  background-image: url(../imagenes/teclados.webp);
 }
-
-.tarjeta__productos-teclados {
-  background-image: url(../../imagenes/teclados.webp);
+.main__productos .tarjeta__productos-teclados {
+  background-image: url(../imagenes/teclados.webp);
 }
-
-.tarjeta__productos-teclados {
-  background-image: url(../../imagenes/teclados.webp);
+.main__productos .tarjeta__productos-teclados {
+  background-image: url(../imagenes/teclados.webp);
 }
 
 /*# sourceMappingURL=style.css.map */
