@@ -141,7 +141,7 @@ footer .derechos-autor {
 }
 
 .main__index {
-  background-image: url(../../imagenes/portada.jpg);
+  background-image: url(../imagenes/portada.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -241,7 +241,7 @@ footer .derechos-autor {
 }
 
 .main__cursos {
-  background-image: url(../../imagenes/fondo9.avif);
+  background-image: url(../imagenes/fondo9.avif);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -297,7 +297,7 @@ footer .derechos-autor {
 }
 
 .main__ingresar {
-  background-image: url(../../imagenes/fondo7.avif);
+  background-image: url(../imagenes/fondo7.avif);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -328,7 +328,7 @@ footer .derechos-autor {
 }
 
 .main__noticias {
-  background-image: url(../../imagenes/fondo8.avif);
+  background-image: url(../imagenes/fondo8.avif);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -350,7 +350,7 @@ footer .derechos-autor {
 }
 
 .main__productos {
-  background-image: url(../../imagenes/fondos3.avif);
+  background-image: url(../imagenes/fondos3.avif);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
