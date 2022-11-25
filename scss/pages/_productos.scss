@@ -27,6 +27,10 @@
 
     .subtitulo-productos{
         text-align: center;
+        background-color: $color__secundario;
+        color: $color__primario;
+        font-size: 3rem;
+        padding: 20px;
     }
     .productos-fondo {
         background-image: url(../imagenes/fondos4.avif);
@@ -34,38 +38,6 @@
         background-size: cover;
         background-attachment: fixed;
         height: auto;
-    }
-
-    .tarjeta__productos-teclados {
-        background-image: url(../imagenes/teclados.webp);
-    }
-
-    .tarjeta__productos-procesadores {
-        background-image: url(../imagenes/ryzen.jpg);
-    }
-
-    .tarjeta__productos-teclados {
-        background-image: url(../imagenes/teclados.webp);
-    }
-
-    .tarjeta__productos-teclados {
-        background-image: url(../imagenes/teclados.webp);
-    }
-
-    .tarjeta__productos-teclados {
-        background-image: url(../imagenes/teclados.webp);
-    }
-
-    .tarjeta__productos-teclados {
-        background-image: url(../imagenes/teclados.webp);
-    }
-
-    .tarjeta__productos-teclados {
-        background-image: url(../imagenes/teclados.webp);
-    }
-
-    .tarjeta__productos-teclados {
-        background-image: url(../imagenes/teclados.webp);
     }
 
 }

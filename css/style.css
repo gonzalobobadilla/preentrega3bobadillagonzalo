@@ -1,3 +1,51 @@
+.animacion {
+  animation-name: animacion__tarjeta;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+@keyframes animacion__tarjeta {
+  0% {
+    transform: scale(0);
+  }
+  25% {
+    transform: scale(0.25) rotate(90deg);
+  }
+  50% {
+    transform: scale(0.5) rotate(180deg);
+  }
+  75% {
+    transform: scale(0.75) rotate(270deg);
+  }
+  50% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+.animacion {
+  animation-name: animacion__tarjeta;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+@keyframes animacion__tarjeta {
+  0% {
+    transform: scale(0);
+  }
+  25% {
+    transform: scale(0.25) rotate(90deg);
+  }
+  50% {
+    transform: scale(0.5) rotate(180deg);
+  }
+  75% {
+    transform: scale(0.75) rotate(270deg);
+  }
+  50% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -404,6 +452,10 @@ footer .derechos-autor {
 }
 .main__productos .subtitulo-productos {
   text-align: center;
+  background-color: black;
+  color: red;
+  font-size: 3rem;
+  padding: 20px;
 }
 .main__productos .productos-fondo {
   background-image: url(../imagenes/fondos4.avif);
@@ -411,30 +463,6 @@ footer .derechos-autor {
   background-size: cover;
   background-attachment: fixed;
   height: auto;
-}
-.main__productos .tarjeta__productos-teclados {
-  background-image: url(../imagenes/teclados.webp);
-}
-.main__productos .tarjeta__productos-procesadores {
-  background-image: url(../imagenes/ryzen.jpg);
-}
-.main__productos .tarjeta__productos-teclados {
-  background-image: url(../imagenes/teclados.webp);
-}
-.main__productos .tarjeta__productos-teclados {
-  background-image: url(../imagenes/teclados.webp);
-}
-.main__productos .tarjeta__productos-teclados {
-  background-image: url(../imagenes/teclados.webp);
-}
-.main__productos .tarjeta__productos-teclados {
-  background-image: url(../imagenes/teclados.webp);
-}
-.main__productos .tarjeta__productos-teclados {
-  background-image: url(../imagenes/teclados.webp);
-}
-.main__productos .tarjeta__productos-teclados {
-  background-image: url(../imagenes/teclados.webp);
 }
 
 /*# sourceMappingURL=style.css.map */
