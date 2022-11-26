@@ -2,27 +2,3 @@ $color__primario:red;
 $color__secundario:black;
 $fondo__tarjeta:rgb(37, 35, 35);
 $color__terciario:white;
-.animacion{
-        animation-name: animacion__tarjeta;
-        animation-duration: 2s;
-        animation-timing-function: linear;
-        animation-iteration-count:1;
-        
-            @keyframes animacion__tarjeta{
-        0%{
-            transform: scale(0);
-        }
-        25%{
-            transform: scale(0.25) rotate(90deg);
-        }
-        50%{
-            transform: scale(0.50) rotate(180deg);
-        }
-        75%{
-            transform: scale(0.75) rotate(270deg);
-        }
-        50%{
-            transform: scale(1) rotate(360deg);
-        }
-    }
-}

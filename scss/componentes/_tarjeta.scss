@@ -1,4 +1,4 @@
-.tarjeta{
+.tarjeta {
     background-color: $fondo__tarjeta;
     color: $color__primario;
     border-color: $color__primario;
@@ -6,27 +6,28 @@
     border-radius: 0px 0px 20px 20px;
 }
 
-.tarjeta__productos{
+.tarjeta__productos {
     background-position: center;
     background-size: cover;
     width: 100vw;
     height: 30vh;
     margin: 2rem 0px;
-    @media(min-width:400px){
+
+    @media(min-width:400px) {
         width: 80vw;
         height: 30vh;
         margin: 2rem;
     }
-    @media(min-width:500px){
+
+    @media(min-width:500px) {
         width: 40vw;
         height: 30vh;
         margin: 2rem;
     }
-    @media(min-width:700px){
+
+    @media(min-width:700px) {
         max-width: 20vw;
         max-height: 30vh;
         margin: 2rem;
     }
 }
-
-

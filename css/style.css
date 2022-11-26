@@ -22,30 +22,6 @@
   }
 }
 
-.animacion {
-  animation-name: animacion__tarjeta;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: 1;
-}
-@keyframes animacion__tarjeta {
-  0% {
-    transform: scale(0);
-  }
-  25% {
-    transform: scale(0.25) rotate(90deg);
-  }
-  50% {
-    transform: scale(0.5) rotate(180deg);
-  }
-  75% {
-    transform: scale(0.75) rotate(270deg);
-  }
-  50% {
-    transform: scale(1) rotate(360deg);
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -127,7 +103,7 @@ html body header {
   background: radial-gradient(circle, rgb(36, 0, 0) 0%, rgb(0, 0, 0) 25%, rgb(82, 0, 0) 47%, rgb(255, 0, 0) 100%);
   text-shadow: 0 0 10px red;
 }
-@media (max-width: 980px) {
+@media (max-width: 991px) {
   html body header {
     background: rgb(36, 0, 0);
     background: linear-gradient(80deg, rgb(36, 0, 0) 0%, rgb(0, 0, 0) 25%, rgb(82, 0, 0) 47%, rgb(255, 0, 0) 100%);
@@ -295,8 +271,7 @@ footer .derechos-autor {
   background-attachment: fixed;
   height: auto;
 }
-
-.titulo__cursos {
+.main__cursos .titulo__cursos {
   background-color: black;
   color: red;
   text-align: center;
@@ -304,12 +279,11 @@ footer .derechos-autor {
   font-size: 3rem;
 }
 @media (max-width: 500px) {
-  .titulo__cursos {
+  .main__cursos .titulo__cursos {
     font-size: 2rem;
   }
 }
-
-.titulo__cursos-2 {
+.main__cursos .titulo__cursos-2 {
   background-color: black;
   color: red;
   text-align: center;
@@ -317,28 +291,30 @@ footer .derechos-autor {
   font-size: 2rem;
   padding: 20px;
 }
-
-.beneficios__cursos {
+.main__cursos .beneficios__cursos {
   background-color: black;
   color: red;
   width: 100%;
   height: fit-content;
   background-color: black;
 }
-.beneficios__cursos .beneficios__titulo {
+.main__cursos .beneficios__cursos .beneficios__titulo {
   text-align: center;
   font-size: 3rem;
   padding: 50px 0px;
 }
-.beneficios__cursos .articulo-izq, .beneficios__cursos .articulo-der {
+.main__cursos .beneficios__cursos .articulo-izq,
+.main__cursos .beneficios__cursos .articulo-der {
   padding: 50px 20px;
   border-top: solid 2px red;
 }
-.beneficios__cursos .articulo-izq .beneficios__titulo-secundario, .beneficios__cursos .articulo-der .beneficios__titulo-secundario {
+.main__cursos .beneficios__cursos .articulo-izq .beneficios__titulo-secundario,
+.main__cursos .beneficios__cursos .articulo-der .beneficios__titulo-secundario {
   padding-bottom: 30px;
   font-size: 2rem;
 }
-.beneficios__cursos .articulo-izq .beneficios__texto, .beneficios__cursos .articulo-der .beneficios__texto {
+.main__cursos .beneficios__cursos .articulo-izq .beneficios__texto,
+.main__cursos .beneficios__cursos .articulo-der .beneficios__texto {
   text-align: justify;
   padding-bottom: 30px;
   font-size: 1rem;

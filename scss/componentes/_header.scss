@@ -1,22 +1,27 @@
 html body header {
-    background: rgb(36,0,0);
-    background: radial-gradient(circle, rgba(36,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(82,0,0,1) 47%, rgba(255,0,0,1) 100%); 
+    background: rgb(36, 0, 0);
+    background: radial-gradient(circle, rgba(36, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 25%, rgba(82, 0, 0, 1) 47%, rgba(255, 0, 0, 1) 100%);
     text-shadow: 0 0 10px $color__primario;
-    @media (max-width:980px){
-        background: rgb(36,0,0);
-        background: linear-gradient(80deg, rgba(36,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(82,0,0,1) 47%, rgba(255,0,0,1) 100%); 
+
+    @media (max-width:991px) {
+        background: rgb(36, 0, 0);
+        background: linear-gradient(80deg, rgba(36, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 25%, rgba(82, 0, 0, 1) 47%, rgba(255, 0, 0, 1) 100%);
     }
+
 }
-.navbar-expand-lg .navbar-nav .nav-link{
+
+.navbar-expand-lg .navbar-nav .nav-link {
     color: $color__primario;
-    &:hover{
+
+    &:hover {
         background-color: $color__secundario;
         border-radius: 20px;
         border: 2px solid $color__primario;
         color: $color__primario;
     }
 }
-.logo{
+
+.logo {
     width: 50px;
     height: 50px;
     border-radius: 30px;

@@ -25,13 +25,14 @@
         height: fit-content;
     }
 
-    .subtitulo-productos{
+    .subtitulo-productos {
         text-align: center;
         background-color: $color__secundario;
         color: $color__primario;
         font-size: 3rem;
         padding: 20px;
     }
+
     .productos-fondo {
         background-image: url(../imagenes/fondos4.avif);
         background-position: center;
